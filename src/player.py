@@ -17,7 +17,7 @@ class Player:
     def dec_threat(self):
         self.threat -= 1
 
-    def set_threat(self, threat: int)
+    def set_threat(self, threat: int):
         self.threat = threat
 
     def kill(self):
