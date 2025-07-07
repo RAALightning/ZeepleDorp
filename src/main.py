@@ -2,4 +2,5 @@
 # Start Date - 7/7/2025
 
 #imports
-import room, player
+from room import Room
+from player import Player
