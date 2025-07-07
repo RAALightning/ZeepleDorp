@@ -1,0 +1,10 @@
+Requirements:
+- Fun
+- Spaceship with multiple rooms, each room has stuff and you can move between them
+- An alien that is hunting you!
+- Complete Amogus tasks to win XD
+- Star trek style technobabble for the tasks (randomly generated)
+- Start in the cryobay
+- Tasks are displayed on ship computer
+- You can hide
+- Threat system
