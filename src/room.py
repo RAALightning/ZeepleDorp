@@ -20,7 +20,7 @@ class Room:
         return self.occupants
 
     def connect(self, other_room):
-        if other_room not in self.neighbors:
-            self.neighbors.append(other_room.roomID)
-        if self not in other_room.neighbors:
-            other_room.neighbors.append(self.roomID)
+        if other_room.name not in self.neighbors:
+            self.neighbors.append(other_room.name)
+        if self.name not in other_room.neighbors:
+            other_room.neighbors.append(self.name)
