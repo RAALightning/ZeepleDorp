@@ -7,7 +7,10 @@ from player import Player
 from actor import Actor
 
 def main():
-
+    # Declare variables
+    bool play = False;
+    
+    ### SET UP FOR PLAY ###
     # Declare initial rooms and connect them
     rooms = {
         "Bridge" : Room(0,"Bridge","The main control centre of the ship."),
@@ -34,6 +37,12 @@ def main():
     }
     connect_rooms(rooms)
 
+    ### PLAY ###
+    play = True
+    while (play):
+        print("Where will you go?")
+
+    
 
 def connect_rooms(rooms):
     # tells each object to connect to it's  neighbors
