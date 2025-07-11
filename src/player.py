@@ -1,7 +1,7 @@
-
 class Player:
 
-    def __init__(self,dead,threat):
+    def __init__(self):
+        
         self.dead = false
         self.threat = 0
 
