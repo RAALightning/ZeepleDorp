@@ -3,4 +3,4 @@
 from entities.actor import Actor, PlayerCharacter, NPC, Monster
 from entities.stage import Stage
 from entities.prop import Prop
-from data.types import ACTOR_TYPE, PROP_TYPE
+from data.dicts import ACTOR_DICT, PROP_DICT, STAGE_DICT
